@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandro Meriño Rodríguez - Currículum Vitae</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+
+        .section-fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideInUp 1s forwards ease-out;
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Contenido del currículum -->
+    <div id="resume-content" class="container mx-auto p-4 sm:p-6 lg:p-8 max-w-4xl">
+
+        <!-- Botón para iniciar el tour -->
+        <div class="flex justify-center mb-8">
+            <button id="tour-button" class="bg-indigo-600 text-white font-semibold py-2 px-6 rounded-full shadow-lg hover:bg-indigo-700 transition-colors duration-300">
+                Iniciar Tour ✨
+            </button>
+        </div>
+
+        <!-- Header Section -->
+        <header class="bg-white rounded-xl shadow-lg p-6 mb-8 flex flex-col sm:flex-row items-center justify-between section-fade-in">
+            <div class="text-center sm:text-left">
+                <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-1">Alejandro Meriño Rodríguez</h1>
+                <p class="text-lg text-gray-600">Arquitecto de Soluciones en IA & Full-Stack</p>
+                <p class="text-sm text-gray-500 mt-2">Cascavel, Estado de Paraná, Brasil</p>
+            </div>
+            <div class="mt-4 sm:mt-0 sm:ml-6 text-center sm:text-right">
+                <a href="mailto:merinnorodriguezalejandro@gmail.com" class="block text-blue-500 hover:text-blue-700 transition-colors">merinnorodriguezalejandro@gmail.com</a>
+                <a href="https://www.linkedin.com/in/alejandromero" target="_blank" class="block text-blue-500 hover:text-blue-700 transition-colors">www.linkedin.com/in/alejandromero</a>
+                <span class="block text-gray-500 mt-1">+55 45 999225951</span>
+            </div>
+        </header>
+
+        <!-- Profile Summary Section -->
+        <section class="bg-white rounded-xl shadow-lg p-6 mb-8 section-fade-in" style="animation-delay: 0.2s;">
+            <h2 class="text-xl font-semibold text-gray-900 mb-4 border-b-2 pb-2">
+                Extracto
+            </h2>
+            <p id="summary-text" class="text-gray-700 leading-relaxed">
+                Bachiller en Ingeniería de la Computación, con una sólida formación en programación en **Java** y **Python** a nivel intermedio-avanzado, y un profundo conocimiento en programación orientada a objetos y estructuras de datos. Poseo experiencia en desarrollo web **Full-Stack** con **HTML5, CSS, JavaScript** y **TypeScript**, utilizando frameworks como **Django, Bootstrap, Vue.js** y **Angular**.
+            </p>
+            <p class="text-gray-700 leading-relaxed mt-4">
+                Mi pasión por la innovación me ha llevado a especializarme en **Inteligencia Artificial**, con un enfoque particular en **LLMs (Large Language Models)**, desarrollando e implementando soluciones de IA como **sistemas multiagente, RAG, RAG Graph** y **Fine-Tuning**.
+            </p>
+            <p class="text-gray-700 leading-relaxed mt-4">
+                Adoro el trabajo en equipo, compartir conocimientos y adaptarme rápidamente a nuevas metodologías y tecnologías. Mi objetivo es combinar el desarrollo de software con la IA para transformar procesos y agregar valor significativo a cada proyecto.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="bg-white rounded-xl shadow-lg p-6 mb-8 section-fade-in" style="animation-delay: 0.4s;">
+            <h2 class="text-xl font-semibold text-gray-900 mb-4 border-b-2 pb-2">Aptitudes y Habilidades</h2>
+            <div class="flex flex-wrap gap-2">
+                <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Django API REST</span>
+                <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Angular</span>
+                <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">PostgreSQL</span>
+                <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Python</span>
+                <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Java</span>
+                <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Inteligencia Artificial Generativa</span>
+                <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Prompt Flow</span>
+                <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Análisis de Datos</span>
+                <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Multiagentes</span>
+                <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">RAG & RAG Graph</span>
+                <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Fine-Tuning</span>
+                <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">HTML5</span>
+                <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">CSS</span>
+                <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">JavaScript</span>
+                <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">TypeScript</span>
+                <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Scrum & Kanban</span>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="bg-white rounded-xl shadow-lg p-6 mb-8 section-fade-in" style="animation-delay: 0.6s;">
+            <h2 class="text-xl font-semibold text-gray-900 mb-4 border-b-2 pb-2">Experiencia Profesional</h2>
+            
+            <!-- Experience 1 -->
+            <div class="mb-6">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-800">Artificial Intelligence Specialist</h3>
+                        <p class="text-sm text-gray-600">TECINCO Tecnologia Ltda.</p>
+                    </div>
+                    <span class="text-sm text-gray-500">Febrero 2025 - Actual (8 meses)</span>
+                </div>
+                <p class="text-gray-700 mt-2">Participación activa en el desarrollo, implementación y despliegue de soluciones de IA. Transformando datos en conocimiento, diseñando algoritmos y modelos robustos para la toma de decisiones. Experiencia con modelos LLMs, machine learning, deep learning y redes neuronales.</p>
+            </div>
+
+            <!-- Experience 2 -->
+            <div class="mb-6">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-800">Al Engineer | Full-Stack Development of a Conversational Assistant</h3>
+                        <p class="text-sm text-gray-600">SIPAC</p>
+                    </div>
+                    <span class="text-sm text-gray-500">Enero 2023 - Julio 2024 (1 año 7 meses)</span>
+                </div>
+                <p class="text-gray-700 mt-2">Lideró el desarrollo de un Asistente Conversacional de IA para una aplicación web. Se implementó un sistema RAG (Retrieval Augmented Generation) usando LangChain y ChromaDB. Desarrollo full-stack con **Redis, PostgreSQL, RASA, Django REST Framework** y **Sencha Ext JS**.</p>
+            </div>
+            
+            <!-- Experience 3 -->
+            <div class="mb-6">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-800">Desarrollador web</h3>
+                        <p class="text-sm text-gray-600">NAVON AI Tech Corp.</p>
+                    </div>
+                    <span class="text-sm text-gray-500">Septiembre 2018 - Octubre 2024 (6 años 2 meses)</span>
+                </div>
+                <p class="text-gray-700 mt-2">Desarrollador full stack especializado en **Django, Vue, Angular** y **PostgreSQL**. Colaboró en proyectos complejos de inteligencia artificial y automatización de procesos utilizando metodologías ágiles como Scrum.</p>
+            </div>
+            
+            <!-- Experience 4 -->
+            <div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-800">IT Consultant</h3>
+                        <p class="text-sm text-gray-600">MINSAP</p>
+                    </div>
+                    <span class="text-sm text-gray-500">Enero 2021 - Enero 2022 (1 año 1 mes)</span>
+                </div>
+                <p class="text-gray-700 mt-2">Responsable de la gestión y administración de bases de datos críticas. Implementó y supervisó procesos de recolección, limpieza y análisis de datos epidemiológicos clave.</p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="bg-white rounded-xl shadow-lg p-6 mb-8 section-fade-in" style="animation-delay: 0.8s;">
+            <h2 class="text-xl font-semibold text-gray-900 mb-4 border-b-2 pb-2">Educación</h2>
+            <div class="mb-4">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-800">Ingeniería en Ciencias Informáticas</h3>
+                        <p class="text-sm text-gray-600">Universidad de las Ciencias Informáticas</p>
+                    </div>
+                    <span class="text-sm text-gray-500">Septiembre 2018 - Julio 2024</span>
+                </div>
+            </div>
+            <div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-800">Certificación de Finalización</h3>
+                        <p class="text-sm text-gray-600">Univel</p>
+                    </div>
+                    <span class="text-sm text-gray-500">Enero 2025 - Julio 2025</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Ideas Section -->
+        <section class="bg-white rounded-xl shadow-lg p-6 mb-8 section-fade-in" style="animation-delay: 1.0s;">
+            <h2 class="text-xl font-semibold text-gray-900 mb-4 border-b-2 pb-2">
+                Ideas para Proyectos de Portafolio
+            </h2>
+            <p class="text-gray-700 leading-relaxed">
+                Esta sección está reservada para futuras ideas de proyectos.
+            </p>
+        </section>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const tourButton = document.getElementById('tour-button');
+            const sections = document.querySelectorAll('section');
+
+            tourButton.addEventListener('click', () => {
+                let currentSectionIndex = 0;
+                const tourInterval = setInterval(() => {
+                    if (currentSectionIndex < sections.length) {
+                        sections[currentSectionIndex].scrollIntoView({ behavior: 'smooth' });
+                        currentSectionIndex++;
+                    } else {
+                        clearInterval(tourInterval);
+                    }
+                }, 1500); // 1.5 second delay between sections
+            });
+        });
+    </script>
+</body>
+</html>
